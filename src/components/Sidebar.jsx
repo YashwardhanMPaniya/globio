@@ -1,32 +1,3 @@
-// import { NavLink } from 'react-router-dom';
-// import UserProfile from './UserProfile';
-
-// const Sidebar = () => (
-//   <aside className="fixed left-0 top-0 w-64 h-screen bg-white flex flex-col justify-between border-r z-30">
-//     <div>
-//       <div className="px-6 pt-8 pb-2 font-bold text-xl text-[#3B4EFF]">Globio</div>
-//       <div className="px-6 mt-6 text-xs text-gray-400 font-semibold">LEVEL</div>
-//       <select className="mx-6 mt-2 mb-6 w-[85%] px-3 py-2 rounded-lg border border-gray-200 text-sm bg-[#F5F7FA] font-medium text-[#3B4EFF] focus:outline-none">
-//         <option>Beginner Level – A1</option>
-//         <option>Elementary – A2</option>
-//         <option>Intermediate – B1</option>
-//         <option>Upper Intermediate – B2</option>
-//         <option>Advanced – C1</option>
-//         <option>Proficient – C2</option>
-//       </select>
-//       <div className="px-6 text-xs text-gray-400 font-semibold mb-2">MAIN MENU</div>
-//       <nav className="flex flex-col gap-1">
-//         <NavLink to="/" className={({isActive}) => `px-6 py-2 rounded-lg font-medium text-sm hover:bg-[#F5F7FA] transition ${isActive ? 'bg-[#F5F7FA] text-[#3B4EFF]' : 'text-gray-700'}`}>Dashboard</NavLink>
-//         <NavLink to="/tutorial" className={({isActive}) => `px-6 py-2 rounded-lg font-medium text-sm hover:bg-[#F5F7FA] transition ${isActive ? 'bg-[#F5F7FA] text-[#3B4EFF]' : 'text-gray-700'}`}>Tutorial</NavLink>
-//         <NavLink to="/mock-tests" className={({isActive}) => `px-6 py-2 rounded-lg font-medium text-sm hover:bg-[#F5F7FA] transition ${isActive ? 'bg-[#F5F7FA] text-[#3B4EFF]' : 'text-gray-700'}`}>Mock Tests</NavLink>
-//       </nav>
-//     </div>
-//     <UserProfile />
-//   </aside>
-// );
-
-// export default Sidebar;
-
 import { NavLink } from 'react-router-dom';
 import UserProfile from './UserProfile';
 
